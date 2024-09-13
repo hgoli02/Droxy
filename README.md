@@ -1,9 +1,8 @@
-# Droxy 
 # Computer Networks Course Project
 
 **Instructor**: Prof. Mizanian  
-**Student**: Hossein Goli 
-**Semester**: Spring 2024
+**Student**: Hossein Goli (Student ID: 99102123)  
+**Semester**: Summer 2024
 
 ## Contents
 1. TUN/TAP Functionality
@@ -25,3 +24,14 @@ This project demonstrates the implementation of a TUN/TAP virtual interface for 
 - Socket Programming
 - TUN/TAP Device Handling
 - EDNS (Extension mechanisms for DNS)
+
+## Running the Project
+
+To run the server and client, follow these steps:
+
+1. Set the IP and port in the respective scripts.
+2. Run the following commands:
+
+```bash
+./run_server.sh
+./run_client.sh
